@@ -67,6 +67,10 @@ hr.small {
 	.sans-serif;
 	.navbar-brand {
 		font-weight: 800;
+
+        img {
+            height: 40px;
+        }
 	}
 	.nav {
 		li {
@@ -153,11 +157,16 @@ hr.small {
 	}
 }
 
+.navbar-default {
+    background-color: rgba(220,220,220, 0.6);
+    border-bottom: 0;
+}
+
 // Header
 
 .intro-header {
-	background-color: @gray; 
-	background: no-repeat center center; 
+	background-color: @gray;
+	background: no-repeat center center;
 	background-attachment: scroll;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
@@ -165,7 +174,7 @@ hr.small {
 	.site-heading,
 	.post-heading,
 	.page-heading {
-		padding: 100px 0 50px;
+		padding: 150px 0 100px 50px;
 		color: white;
 		@media only screen and (min-width: 768px) {
 			padding: 150px 0;
